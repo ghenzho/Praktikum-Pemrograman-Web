@@ -1,0 +1,76 @@
+body{font-family: 'Cursive';color:rgb(230, 24, 24);}
+        ul {list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(250,255,250);
+            background: linear-gradient(90deg, rgba(250,255,250,1) 0%, rgba(65,252,12,1) 39%, rgba(0,69,255,1) 100%);
+        }
+        li {float: right;}
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {background-color: rgb(146, 142, 141);}
+        td {
+            color: rgb(19, 3, 3);
+            background-color: rgba(244, 244, 244, 0.3);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(244, 244, 244, 0.3);
+            font-size: 12pt;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            font-size: 12pt
+        }
+        td.atas {
+            color: rgb(43, 9, 238);
+            background: rgb(249,9,22);
+            background: linear-gradient(180deg, rgba(249,9,22,1) 0%, rgba(249,46,67,1) 39%, rgba(241,242,246,1) 100%);
+            border-width: 1px;
+            border-style: solid;
+            border-color: #f2efef;
+            font-size: 9pt;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            text-align: center;
+        }
+        td.bawah {
+            color: rgb(36, 226, 19);
+            background-color: #f2efef;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #f2efef;
+            font-size: 9pt;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            text-align: center;
+        }
+        td.foot{
+            color: #0ee5ec;
+            margin-top: 40px;
+            font-size: 12px;
+            text-align: center;
+            background-color: #2b2222;
+        }
+
+        tr.text_tengah{
+            color: black;
+            text-align: center;
+            text-decoration-color: blue;
+        }
+tbody{
+    
+    color:rgb(146, 142, 141);
+    }
